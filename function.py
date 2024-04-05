@@ -19,8 +19,9 @@ from config import (
     key_wallet…,
 )
 
-#書き出し
+#パッケージ管理
 !pip freeze > requirements.txt
+
 #install
 #!pip install -r requirements.txt
 
@@ -29,6 +30,7 @@ from config import (
 RPC_URL = "https://zetachain-evm.blockpi.network/v1/rpc/public"
 web3 = Web3(HTTPProvider(RPC_URL))
 proxy_info = None
+
 #Networkの確認
 print(web3.is_connected())
 print(web3.eth.chain_id) 
