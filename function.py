@@ -6,9 +6,9 @@ from abi import (
 )
 
 from config import (
-    bnb_value_zeta , 
-    pool_zeta_value,  
     bnb_to_approve,
+    pool_zeta_value,  
+    zeta_value_bnb , 
     zeta_value_eth ,
     zeta_value_bnb ,
     wallet_A,
@@ -41,6 +41,15 @@ def create_transaction(
 )
 
 
+#send_token
+abi=
+btc_address=""
+btcContract = web3.eth.contract(address=btc_address, abi=btc_abi)
+
+def transfer_tokens(
+)
+
+
 #Swap_Task
 def eth_task(
 )
@@ -51,6 +60,7 @@ def bnb_task(
 #LP_Task_approve
 def approve(
 )
+
 #pool
 def pool_tx(
 )
