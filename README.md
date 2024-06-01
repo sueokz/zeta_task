@@ -1,5 +1,5 @@
 # zeta_task
-zetachainのtaskを半自動化・複垢するためのコード。
+zetachainのtaskを自動化するためのコード。
 
 # 公開の予定
 なし
