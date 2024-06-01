@@ -1,5 +1,5 @@
 # zeta_task
-zetachainのtaskを自動化するためのコード。
+zetachain(ブロックチェーンのL2)の送金等を自動化するためのコード。
 
 # 公開の予定
 なし
